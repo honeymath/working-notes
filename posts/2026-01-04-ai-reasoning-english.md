@@ -120,20 +120,20 @@ Formally, mathematical reasoning and proof are fundamentally a process of **vari
 Take calculus as an example. Newton’s dot notation is extremely intuitive for expressing rates of change, but once complex substitutions or nested structures appear, the notation no longer preserves enough information and the reasoning can easily go off the rails. Leibniz notation, by explicitly preserving variable dependencies, is verbose—but far more robust for structural transfer and compositional reasoning.
 
 Consider the chain rule:
-Let \( f(x) = g(h(x)) \).  
-If we use only prime notation \( f', g', h' \), we must **introduce an external rule**:
-\[
+Let $$f(x) = g(h(x)) $$.  
+If we use only prime notation $$f', g', h' $$, we must **introduce an external rule**:
+$$
 f'(x) = g'(h(x)) \cdot h'(x).
-\]
+$$
 This rule does not naturally emerge from the notation itself; it relies on memory and convention.
 
 In Leibniz notation, the reasoning process is directly reflected in the symbol shape:
-\[
+$$
 \frac{df}{dx}
 = \frac{df}{dh} \cdot \frac{dh}{dx}
 = \frac{dg}{dh} \cdot \frac{dh}{dx}
 = g'(h(x)) \cdot h'(x).
-\]
+$$
 Here, **variable substitution itself becomes the system’s mode of evolution**. The conclusion is not “derived by applying a rule,” but appears formally through **structural matching**.
 
 In this sense, a mathematical proof is not “describing reasoning with language,” but rather letting structure unfold inside a language expressive enough to expose it. Formal systems like Lean are designed along precisely this line: proof is not narrative; it is step-by-step structural alignment.
