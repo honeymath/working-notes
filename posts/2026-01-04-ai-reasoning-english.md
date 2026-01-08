@@ -122,14 +122,11 @@ Take calculus as an example. Newton’s dot notation is extremely intuitive for 
 Consider the chain rule:
 Let $$f(x) = g(h(x)) $$.  
 If we use only prime notation $$f', g', h' $$, we must **introduce an external rule**:
-$$
-f'(x) = g'(h(x)) \cdot h'(x).
-$$
+$$f'(x) = g'(h(x)) \cdot h'(x).  $$
 This rule does not naturally emerge from the notation itself; it relies on memory and convention.
 
 In Leibniz notation, the reasoning process is directly reflected in the symbol shape:
-$$
-\frac{df}{dx}
+$$\frac{df}{dx}
 = \frac{df}{dh} \cdot \frac{dh}{dx}
 = \frac{dg}{dh} \cdot \frac{dh}{dx}
 = g'(h(x)) \cdot h'(x).
