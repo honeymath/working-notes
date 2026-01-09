@@ -4,36 +4,17 @@
 
 
 [AI Runaway Is Not a Model Problem — It’s a Collapse of System Boundaries](posts/2026-01-04-ai-reasoning-english.md)
-> In 2023, I first used ChatGPT to build my own AI agents: reading emails, sending replies, and scheduling events.
-> I thought I was using “advanced AI.” What I actually found myself doing was repeatedly correcting an apprentice that kept making elementary mistakes. From that moment on, my most basic trust in AI began to erode.
+> In 2023, I began building my own AI agents. I thought I was using “advanced AI”—but quickly realized I was spending my time correcting an apprentice making elementary mistakes. From that moment on, one conclusion was clear: I should never let such systems send emails or execute commands.
 > 
-> Two years later, model capabilities have improved significantly, and obvious hallucinations have been greatly reduced. Even so, I still do not dare to let it send emails on my behalf.
-> The problem is not whether the model is “smart enough,” but that when the boundaries between language, reasoning, and execution are systematically flattened, errors are no longer incidental—they become structural and inevitable.
+> Two years later, the models have improved. My conclusion has not.
 > 
-> If a system allows natural language to directly drive execution, then when errors occur:
-> Who discovers them?
-> Who stops them?
-> Who bears responsibility for the consequences?
+> The problem is not capability—it is architecture. When language, reasoning, and execution are collapsed into a single layer, failure becomes inevitable. We have succumbed to what I call linguistic centralism: the belief that because an LLM can speak fluently, it can also reason and act. This is a category error. Language is a carrier, not cognition itself.
 > 
-> This article does not discuss whether AI is “aligned” or “safe.” Instead, from a system-architecture perspective grounded in basic engineering common sense, it asks several questions that are repeatedly ignored:
+> LLMs are translation and completion machines, not reasoning systems. Yet the industry is enthusiastically embedding these probabilistic completion engines directly into irreversible execution layers. This design choice guarantees systemic failure rather than occasional mistakes.
 > 
-> - What is the true nature of large language model capabilities? (Translation and completion, not reasoning.)
-> - Why is the entire industry treating natural language as reasoning itself?
-> - What roles is natural language suited for in a system, and what responsibilities should it never be allowed to assume?
-> - Why are today’s popular agent architectures engineering the amplification of their own failure?
+> LLMs must remain confined to the language layer. A separate reasoning layer is non-negotiable.
 > 
-> These questions all point to a single, avoided fact:
-> Language is only the expression layer of a system. Safety and reliability depend on a separate reasoning/verification layer.
-> 
-> This is the first article in a two-part series. It focuses on the problem itself:
-> Why treating natural language as a reasoning system—and directly connecting it to execution—is an engineering path destined to lose control.
-> 
-> The next article will address solutions:
-> If language cannot, and should not, bear reasoning and judgment on its own, what should replace it? What would a verifiable, auditable, and accountable AI system architecture actually look like?
-> 
-> This is not a rejection of AI capability.
-> It is a warning about a dangerous trend now spreading:
-> treating human language as a substitute for reasoning and responsibility.
+> In this article, I examine what must change—and why.
 
 
 
