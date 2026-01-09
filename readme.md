@@ -39,7 +39,7 @@
 
 ## About me
 
-I am Qirui Li, a mathematician working in number theory and algebraic geometry, and someone who has been writing code for twenty-six years.
+I’m Qirui Li. I’ve been writing code for over twenty years, and I’m trained as a mathematician, with a background in number theory and algebraic geometry.
 
 I want to build my own AI by hand, but reality has repeatedly pushed back. What I write here comes from practice and failure notes, meant to avoid walking the same detours again and again.
 
