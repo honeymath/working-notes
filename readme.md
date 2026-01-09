@@ -3,7 +3,7 @@
 ## Postings:
 
 
-[AI Runaway Is Not a Model Problem — It’s a Collapse of System Boundaries](posts/2026-01-04-ai-reasoning-english.md)
+[AI Runaway Is Not a Model Problem — It’s a Collapse of System Boundaries](posts/2026-01-04-ai-reasoning-english.md) [2026-01-04]
 > In 2023, I began building my own AI agents. I thought I was using “advanced AI”—but quickly realized I was spending my time correcting an apprentice making elementary mistakes. From that moment on, one conclusion was clear: I should never let such systems send emails or execute commands.
 > 
 > Two years later, the models have improved. My conclusion has not.
